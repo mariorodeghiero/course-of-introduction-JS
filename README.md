@@ -6,23 +6,24 @@ Este é um projeto pessoal para aprimorar meus conhecimentos na linguagem **Java
 ##Sobre o conteudo:
 
 
-> - Introdução 
-
-> - Variáveis e Operadores 
-
-> - Arrays, Loop e Estilos 
-
+> - Introdução
+>
+> - Variáveis e Operadores
+>
+> - Arrays, Loop e Estilos
+>
 > - Eventos, Formulários e Criando Elementos
-
+>
 > - Boas Práticas com Javascript
-
+>
 > - Validação de Formulários
-
+>
 > - Remoção, Delegação e Animação
-
+>
 > - Filtrando uma tabela
-
+>
 > - AjaxBuscando pacientes com AJAX
+>
 
 ##Mais informações:
 
