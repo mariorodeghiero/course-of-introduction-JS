@@ -29,15 +29,17 @@ for (var i = 0; i < pacientes.length; i++) {
         paciente.classList.add("paciente-invalido");
     }
 
-  if (alturaEhValida && pesoEhValido) {
-        var imc = peso / (altura * altura);
-        tdImc.textContent = imc.toFixed(2);
+    if (alturaEhValida && pesoEhValido) {
+        var imc = calculaImc(peso,altura);
+        tdImc.textContent = imc;
     }
 }
 
-console.log('------------------------------------');
-console.log(peso);
-console.log(altura);
-console.log(imc);
-console.log(paciente);
-console.log('------------------------------------');
+
+function calculaImc(peso,altura){
+
+    var imc = 0;
+
+    imc = peso / (altura * altura);
+    return imc.toFixed(2);
+}
