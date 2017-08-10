@@ -10,7 +10,7 @@ botaoAdicionar.addEventListener("click", function (event) {
     var pacienteTr = montaTr(paciente);
 
     if (!validaPaciente(paciente)) {
-        alert("Peso ou altura invalido!!");
+        alert("Paciente invalido!!, verifique os campos digitados.");
         return;
     }
 
@@ -57,7 +57,7 @@ function montaTd(dado, classe) {
 };
 
 function validaPaciente(paciente) {
-    if (validaPeso(paciente.peso) && validaAltura(paciente.altura)) {
+    if (validaPeso(paciente.peso) && validaAltura(paciente.altura) && paciente.nome.length >= 2) {
         return true;
     } else {
         return false;
